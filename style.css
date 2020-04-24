@@ -2,11 +2,9 @@ body{
   color: #333333;
   font-size: 0.9em;
   font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, Geneva, sans-serif;
-  background-image: url(images/bg.gif);
-  background-repeat: repeat;
 }
 
-#main .date{
+#main2 .date{
   color: #666666;
   text-align: right;
 }
@@ -33,14 +31,13 @@ footer{
    text-align: center;
    height: 50px;
    clear: both;
-   background-color: #999999;
+   background-color: #A0522D;
 }
 
-
 nav ul li{
-   font-size: 1.5em;
-   margin-bottom: 10px;
-   padding-left: 7px; 
+  font-size: 1.5em;
+  padding-left: 10px;
+  margin-bottom: 7px;
   border-left-width: 5px;
   border-left-color: #990066;
   border-left-style: solid;
@@ -53,26 +50,22 @@ nav ul{
 }
 
 nav ul li a:link, nav ul li a:visited{
-   color:#333333;
-   text-decoration: none;
+  color: #333333;
+  text-decoration: none;
 }
-
 nav ul li a:active, nav ul li a:hover{
-   color:#990066;
-   text-decoration: none;
+  color: #990066;
+  text-decoration: none;
 }
 
 #wrapper{
   width: 900px;
   margin: 0px auto;
   background-color: #ffffff;
-  background-image: url(images/logo.png);
-  background-repeat: no-repeat;
 }
 
 nav{
    width: 200px;
-   float: left;
    margin-top: 30px;
 }
 
